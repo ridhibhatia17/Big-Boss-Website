@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+          * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'poppins' , sans-serif;
+        }
+
+        .container{
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(grey.jpg);
+            background-size: cover;
+            background-position: center;
+            padding: 0 8%;
+            position: relative;
+        }
+        nav{
+            display: flex;
+            width: 100%;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 5px 0;
+        }
+        .welcome{
+            width: 150px;
+            color:white;
+        }
+        nav ul{
+            flex: 1;
+            text-align: right;
+            padding-right: 30px;
+        }
+        nav ul li{
+            display: inline-block;
+            list-style: none;
+            margin: 10PX 30PX;
+        }
+        nav ul li a{
+            color: #fff;
+            text-decoration: none;
+            position: relative;
+        }
+        nav ul li a::after{
+            content: '';
+            width: 0;
+            height: 3px;
+            position: absolute;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: black;
+            transition: width 0.3s;
+        }
+        nav ul li a:hover::after{
+            width:50%;
+        }
+        .event-management{
+            margin-top: 100px;
+            margin-left: -100px;
+
+        }
+        .content{
+            position: absolute;
+            margin-top: -450px;
+            margin-left: 590px;        
+        }
+        .content p{
+            font-size: 18px;
+        }
+        .content ul li{
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h1 class="welcome" style="font-family: cursive; font-size: 32px;">About</h1>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="https://www.jiocinema.com/tv-shows/bigg-boss-ott-voting" target="_blank">Voting</a></li>
+                <li><a href="contestants.html">All Contestants</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="event-management">
+            <img src="voting.png" style="width: 670px; height: 400px;">
+        </div>
+        <div class="content">
+            <p>Welcome to the official Big Boss Voting Website, where passion meets participation! Are you a die-hard fan of the hit reality show, Big Boss? Well, you're in the right place! Our platform is dedicated to enhancing your experience as a viewer by providing a direct channel for you to support and vote for your favorite contestants.
+                <br><br>
+                Big Boss isn't just a show; it's a rollercoaster ride of emotions, drama, and unexpected twists. We understand the excitement and attachment viewers develop towards their chosen housemates. That's why we've created this platform—to empower you, the audience, to actively engage in the journey of the show by casting your votes.
+                <br><br>
+                Our commitment revolves around transparency, reliability, and inclusivity. Every vote you cast through our platform holds immense significance in shaping the fate of contestants. We assure you that each vote is counted accurately and contributes to determining the survival of contestants in the Big Boss house.
+                <br><br>
+                Whether you're drawn to the strategic gameplay, emotional connections, or sheer entertainment, your voice matters here. Join us in this exhilarating journey and become an integral part of the Big Boss experience. Let's celebrate the spirit of the show together as we witness the evolving dynamics, unexpected alliances, and captivating moments.
+                <br><br>
+                Thank you for choosing our website as your trusted platform to exercise your voting rights and make a difference in the thrilling world of Big Boss! Your support fuels the excitement and drama that make this show an unforgettable experience.
+            </p>
+            </p>
+        </div>
+        </div>
+</body>
+</html>

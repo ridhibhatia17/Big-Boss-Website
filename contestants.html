@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contestants</title>
+    <style>
+        * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'poppins' , sans-serif;
+    }
+
+    body{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(grey\ background.avif);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 0 8%;
+        position: relative;
+    }
+    nav{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 5px 0;
+    }
+    .welcome{
+        width: 150px;
+        color:white;
+    }
+    nav ul{
+        flex: 1;
+        text-align: right;
+        padding-right: 30px;
+    }
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 10PX 30PX;
+    }
+    nav ul li a{
+        color: #fff;
+        text-decoration: none;
+        position: relative;
+    }
+    nav ul li a::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: black;
+        transition: width 0.3s;
+    }
+    nav ul li a:hover::after{
+        width:50%;
+    }
+    .movies h2{
+  font-size:50px;
+  margin-top:25px;
+  margin-left:-110px;
+  font-family:Tahoma;
+}
+
+.cards{
+  width: 240px;
+  background-color:grey;
+  border-radius:5px;
+  margin:40px;
+  display:inline-block;
+  margin-left:33px;
+
+}
+
+.cards:hover{
+  box-shadow:2px 2px 10px black;
+}
+.image img{
+  width:100%;
+  border-top-right-radius:5px;
+  border-top-left-radius:5px;
+}
+.title{
+  text-align:center;
+  padding:5px;
+  }
+.des{
+  text-align:center;
+  padding:4px;
+}
+button{
+  margin-top:10px;
+  margin-bottom:10px;
+  background-color:white;
+  border:1px solid black;
+  padding:8px;
+  border-radius:8px;
+  cursor:pointer;
+  color: black;
+  font-weight: bold;
+}
+.des button:hover{
+  background-color:black;
+  transition:1s;
+  color: white;
+}
+.des a:hover{
+  color: white;
+  transition:1s;
+}
+body{
+  font-family:Arial;
+}
+
+    </style>
+</head>
+<body>
+        <nav>
+            <h1 class="welcome" style="font-family: cursive; font-size: 32px;">Contestants</h1>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="https://www.jiocinema.com/tv-shows/bigg-boss-ott-voting" target="_blank">Voting</a></li>
+                <li><a href="contestants.html">All Contestants</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="cards">
+            <div class="image">
+              <img src="Ankita.jpg" style="height: 320px;">
+            </div>
+            <div class="title">
+              <h3>Ankita Lokhande</h3>
+            </div>
+            <div class="des">
+              <p>Age: 38Yrs</p>
+              <a href="https://en.wikipedia.org/wiki/Ankita_Lokhande" target="_blank" style="text-decoration:none;">
+                <button>Know More</button>
+                
+              </a>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="image">
+              <img src="Vicky.jpg" style="height: 320px;">
+            </div>
+            <div class="title">
+              <h3>Vicky Jain</h3>
+            </div>
+            <div class="des">
+              <p>Age: 37Yrs</p>
+              <a href="https://www.bollywoodbiography.in/vicky-jain.html" target="_blank" style="text-decoration:none;">
+              <button>Know More</button>
+              </a>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="image">
+              <img src="Isha.jpg" style="height: 320px;">
+            </div>
+            <div class="title">
+              <h3>Isha Malviya</h3>
+            </div>
+            <div class="des">
+              <p>Age: 20Yrs</p>
+              <a href="https://wikiwiki.in/actress/isha-malviya/" target="_blank" style="text-decoration:none;">
+              <button>Know More</button>
+              </a>
+            </div>
+          </div>
+          
+          
+          
+          
+          
+          
+          <div class="cards">
+            <div class="image">
+              <img src="abhishek.webp" style="height: 320px;">
+            </div>
+            <div class="title">
+              <h3>Abhishek Kumar</h3>
+            </div>
+            <div class="des">
+              <p>Age: 28Yrs</p>
+              <a href="https://wikiwiki.in/actor/abhishek-kumar/" target="_blank" style="text-decoration:none;">
+              <button>Know More</button>
+              </a>
+            </div>
+          </div>
+          
+        <div class="cards">
+            <div class="image">
+              <img src="Manasvi.jpg" style="height: 320px;">
+            </div>
+            <div class="title">
+              <h3>Manasvi Mamgai</h3>
+            </div>
+            <div class="des">
+              <p>Age: 34Yrs</p>
+              <a href="https://en.wikipedia.org/wiki/Manasvi_Mamgai" target="_blank" style="text-decoration:none;">
+            <button>Know More</button>
+              </a>
+            </div>
+          </div>
+        
+       <div class="cards">
+            <div class="image">
+              <img src="Neil.jpg" style="height: 320px;">
+            </div>
+            <div class="title">
+              <h3>Neil Bhatt</h3>
+            </div>
+            <div class="des">
+              <p>Age: 36Yrs</p>
+              <a href="https://en.wikipedia.org/wiki/Neil_Bhatt" target="_blank" style="text-decoration:none;">
+              <button>Know More</button>
+              </a>
+            </div>
+          </div>
+        
+          
+          
+          <div class="cards">
+            <div class="image">
+              <img src="munawar.jpg" style="height: 320px;">
+            </div>
+            <div class="title">
+              <h3>Munawar Faruqui</h3>
+            </div>
+            <div class="des">
+              <p>Age: 31Yrs</p>
+              <a href="https://en.wikipedia.org/wiki/Munawar_Faruqui" target="_blank" style="text-decoration:none;">
+              <button>Know More</button>
+              </a>
+            </div>
+          </div>
+        
+          <div class="cards">
+            <div class="image">
+              <img src="samarth.jpg" style="height: 320px;">
+            </div>
+            <div class="title">
+              <h3>Samarth Jurel</h3>
+            </div>
+            <div class="des">
+              <p>Age: 22Yrs</p>
+                <a href="https://wikiwiki.in/actor/samarth-jurel/" target="_blank" style="text-decoration:none;">
+              <button>Know More</button>
+              </a>
+            </div>
+          </div>
+   
+        <div class="cards">
+            <div class="image">
+              <img src="aishwarya.avif" style="height: 340px;">
+              </div>
+            <div class="title">
+              <h3>Aishwarya Sharma</h3>
+            </div>
+            <div class="des">
+              <p>Age: 31Yrs</p>
+              <a href="https://en.wikipedia.org/wiki/Aishwarya_Sharma" target="_blank" style="text-decoration:none;">
+              <button>Know More</button>
+              </a>
+            </div>
+          </div>
+        
+         <div class="cards">
+            <div class="image">
+              <img src="mannara.avif" style="height: 340px;">
+            </div>
+            <div class="title">
+              <h3>Mannara Chopra</h3>
+            </div>
+            <div class="des">
+              <p>Age: 32Yrs</p>
+            <a href="https://en.wikipedia.org/wiki/Mannara_Chopra" target="_blank" style="text-decoration:none;">
+              <button>Know More</button>
+           </a>
+            </div>
+          </div>
+         <div class="cards">
+            <div class="image">
+              <img src="anurag.jpg" style="height: 340px;">
+            </div>
+            <div class="title">
+              
+              <h3>Anurag Dobhal</h3>
+            </div>
+            <div class="des">
+              <p>Age: 26Yrs</p>
+               <a href="https://wikiwiki.in/influencer/anurag-dobhal-uk07-rider/" target="_blank" style="text-decoration:none;">
+              <button>Know More</button>
+              </a>
+            </div>
+          </div>
+        
+         <div class="cards">
+            <div class="image">
+              <img src="sana.jpg" style="height: 340px;">
+            </div>
+            <div class="title">
+              <h3>Sana Raees Khan</h3>
+            </div>
+            <div class="des">
+              <p>Age: 32Yrs</p>
+               <a href="https://wikiwiki.in/miscellaneous/sana-raees-khan/" target="_blank" style="text-decoration:none;">
+              <button>Know More</button>
+                 </a>
+            </div>
+          </div>
+       
+        <div class="cards">
+            <div class="image">
+              <img src="arun.jpg" style="height: 340px;">
+            </div>
+            <div class="title">
+              <h3>Arun Mashettey</h3>
+            </div>
+            <div class="des">
+              <p>Age: 35Yrs</p>
+               <a href="https://wikiwiki.in/miscellaneous/arun-srikanth-mashettey-bigg-boss-17-height-weight-wiki-age-biography-more/" target="_blank" style="text-decoration:none;">
+              <button>Know More</button>
+              </a>
+            </div>
+          </div>
+        <div class="cards">
+            <div class="image">
+              <img src="sunny.jpg" style="height: 340px;">
+            </div>
+            <div class="title">
+              <h3>Sunny Arya(Tehelka Bhai)</h3>
+            </div>
+            <div class="des">
+               <a href="https://wikiwiki.in/influencer/sunny-arya/" target="_blank" style="text-decoration:none;">
+              <button>Know More</button>
+              </a>
+            </div>
+          </div>
+        <div class="cards">
+            <div class="image">
+              <img src="khanzaadi.avif" style="height: 340px;">
+            </div>
+            <div class="title">
+              <h3>khanzaadi</h3>
+            </div>
+            <div class="des">
+              <p>Age: 27Yrs</p>
+               <a href="https://wikiwiki.in/musician/firoza-khan/" target="_blank" style="text-decoration:none;">
+              <button>Know More</button>
+              </a>
+            </div>
+          </div>
+         <div class="cards">
+            <div class="image">
+              <img src="jigna.jpg" style="height:340px;">
+            </div>
+            <div class="title">
+              <h3>Jigna Vora</h3>
+            </div>
+            <div class="des">
+              <p>Age: 49Yrs</p>
+               <a href="https://en.wikipedia.org/wiki/Jigna_Vora" target="_blank" style="text-decoration:none;">
+              <button>Know More</button>
+              </a>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="image">
+              <img src="rinku.jpg" style="height:340px;">
+            </div>
+            <div class="title">
+              <h3>Rinku Dhawan</h3>
+            </div>
+            <div class="des">
+              <p>Age: 46Yrs</p>
+               <a href="https://wikibio.in/rinku-dhawan/" target="_blank" style="text-decoration:none;">
+              <button>Know More</button>
+              </a>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="image">
+              <img src="soniya.jpg" style="height:340px;">
+            </div>
+            <div class="title">
+              <h3>Soniya Bansal</h3>
+            </div>
+            <div class="des">
+              <p>Age: 27Yrs</p>
+               <a href="https://en.wikipedia.org/wiki/Soniya_Bansal" target="_blank" style="text-decoration:none;">
+              <button>Know More</button>
+              </a>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="image">
+              <img src="navid.jpg" style="height:340px;">
+            </div>
+            <div class="title">
+              <h3>Navid Sole</h3>
+            </div>
+            <div class="des">
+              <p>Age: 29Yrs</p>
+               <a href="https://wikibio.in/navid-sole/" target="_blank" style="text-decoration:none;">
+              <button>Know More</button>
+              </a>
+            </div>
+          </div>
+          </body>
+</html>
